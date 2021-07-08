@@ -6,6 +6,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
 }
 
 header {
@@ -72,9 +73,32 @@ header nav ul li a {
     background-color: black;
 }
 
+/* about me styles */
+
+.aboutme h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(148, 245, 239);
+    border-right: 3px solid rgb(148, 245, 239);
+    text-align: left;
+    align-items: center;
+    flex: 0 0 15%;
+    background-color: black;
+    
+}
+
+.aboutme p {
+    color: silver;
+    margin-right: 50px;
+    flex: 0 0 75%;
+    /* float: right; */
+    display: inline;
+}
 
 
-footer {
+
+
+  footer {
     width: 100%;
     padding: 40px 50px;
 }
