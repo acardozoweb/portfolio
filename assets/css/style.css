@@ -6,7 +6,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: black;
+    /* background-color: black; */
 }
 
 header {
@@ -96,14 +96,34 @@ header nav ul li a {
 }
 
 
+/* "my work" styles */
 
-
-  footer {
-    width: 100%;
-    padding: 40px 50px;
+.mywork-div {
+    font-size: 30px;
+    font-weight: normal;
+    color: silver;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 0 0 15%;
+    padding: right;
+    margin-left: 10px;
+    margin-left: 10px;
+    height: 800px:
 }
 
-footer h2 {
-    display: inline;
-    line-height: 1.5;
+.work-images {
+
+}
+
+
+
+
+/* flexbox */
+
+.flex-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 45px;
 }
