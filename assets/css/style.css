@@ -10,7 +10,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: rgb(148, 245, 239);
+    background-color: black;
     
 }
 
@@ -25,6 +25,7 @@ header a {
     text-decoration: none;
     color: black;
     font-weight: normal;
+    color: rgb(148, 245, 239);
 }
 
 header nav {
@@ -40,7 +41,7 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
-    color: black;
+    color: rgb(148, 245, 239);
   }
 
 footer {
