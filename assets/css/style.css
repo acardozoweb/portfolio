@@ -6,7 +6,7 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    /* background-color: black; */
+    background-color: black;
 }
 
 header {
@@ -46,7 +46,7 @@ header nav ul li a {
   }
 
 
-/* hero styling */
+/* hero styles */
 
 .hero {
     height: 450px;
@@ -75,25 +75,32 @@ header nav ul li a {
 
 /* about me styles */
 
+.aboutme {
+    background-color: black;
+}
+
 .aboutme h2 {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: normal;
     color: rgb(148, 245, 239);
-    border-right: 3px solid rgb(148, 245, 239);
-    text-align: left;
+    border-right: rgb(148, 245, 239) solid 5px;
+    text-align: right;
     align-items: center;
     flex: 0 0 15%;
-    background-color: black;
+    padding-right: 10px;
+    margin-left: 5x;
+    width: 10%;
     
 }
 
 .aboutme p {
     color: silver;
-    margin-right: 50px;
+    margin-left: 175px;
     flex: 0 0 75%;
-    /* float: right; */
+    font-size: 20px;
     display: inline;
 }
+
 
 
 /* "my work" styles */
@@ -109,10 +116,10 @@ header nav ul li a {
     padding: right;
     margin-left: 10px;
     margin-left: 10px;
-    height: 800px:
+    height: 800px;
 }
 
-.work-images {
+.work-img {
 
 }
 
