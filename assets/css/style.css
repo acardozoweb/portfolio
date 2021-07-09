@@ -12,7 +12,6 @@ body {
 header {
     padding: 20px 35px;
     background-color: black;
-    
 }
 
 header h1 {
@@ -105,7 +104,7 @@ header nav ul li a {
 
 /* "my work" styles */
 
-.mywork-div {
+/* .mywork-div {
     font-size: 30px;
     font-weight: normal;
     color: silver;
@@ -116,13 +115,80 @@ header nav ul li a {
     padding: right;
     margin-left: 10px;
     margin-left: 10px;
+    height: 500px;
+} */
+
+.mywork-div h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: rgb(148, 245, 239);
+    border-right: rgb(148, 245, 239) solid 5px;
+    text-align: right;
+    align-items: center;
+    flex: 0 0 15%;
+    padding-right: 10px;
+    margin-left: 5x;
+    width: 10%;
     height: 800px;
 }
 
 .work-img {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 0 0 75%;
+    margin-right: 50px;
+    align-content: space-between ;
 }
 
+.primary-img {
+    background-image: url(../images/what2watch-img.png);
+    background-size: cover;
+    flex: 5 0 100%;
+    border: 3px solid black;
+    display: flex;
+    height: 400px;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.secondary-img {
+    background-size: cover;
+    display: flex;
+    border: 3px solid black;
+    height: 200px;
+    flex: 0 0 50%;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.second-work-img {
+    background-image: url(../images/weatherdashboard-img.png);
+}
+
+.third-work-img {
+    background-image: url(../images/scheduler-img.png);
+}
+
+.fourth-work-img, .fifth-work-img {
+    background-image: url(../images/Placeholder.png);
+}
+
+.primary-img:hover, .secondary-img:hover {
+    opacity: 0.5;
+}
+
+.img-text {
+    background-color: black;
+    color:rgb(148, 245, 239);
+    height: 50px;
+    width: max-content;
+    padding: 3px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    align-items: center;
+}
 
 
 
