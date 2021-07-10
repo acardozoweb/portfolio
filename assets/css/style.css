@@ -9,6 +9,9 @@ body {
     background-color: black;
 }
 
+
+/* HEADER styles */
+
 header {
     padding: 20px 35px;
     background-color: black;
@@ -45,7 +48,7 @@ header nav ul li a {
   }
 
 
-/* hero styles */
+/* HERO styles */
 
 .hero {
     height: 450px;
@@ -72,6 +75,7 @@ header nav ul li a {
     background-color: black;
 }
 
+
 /* ABOUT ME styles */
 
 .aboutme {
@@ -89,7 +93,6 @@ header nav ul li a {
     padding-right: 10px;
     margin-left: 5x;
     width: 10%;
-    
 }
 
 .aboutme p {
@@ -225,8 +228,6 @@ header nav ul li a {
 }
 
 
-
-
 /* flexbox */
 
 .flex-div {
@@ -234,4 +235,70 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 45px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+    
+    header h1 {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    header nav {
+        flex: 0 0 100%;
+        padding-bottom: 10px;
+    }
+
+    .getintouch h2 {
+        border-right: none;
+        border-bottom: 5px solid rgb(148, 245, 239);
+        flex: 1 100%;
+        text-align: center;
+        margin: 0px 250px
+    }
+
+    .getintouch nav {
+        flex: 1 100%;
+        padding-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .aboutme h2 {
+        border-right: none;
+        border-bottom: 5px solid rgb(148, 245, 239);
+        flex: 1 100%;
+        text-align: center;
+        margin: 0px 250px;
+    }
+
+    .aboutme p {
+        flex: 1 100%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .mywork-div {
+        flex-direction: column;
+    }
+
+    .mywork-div h2 {
+        border-right: none;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 20px;
+        border-bottom: rgb(148, 245, 239) 5px solid;
+    }
+
+    .work-img {
+        flex: 1 100%;
+        align-items: stretch;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
 }
