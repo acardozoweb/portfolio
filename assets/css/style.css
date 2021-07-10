@@ -72,7 +72,7 @@ header nav ul li a {
     background-color: black;
 }
 
-/* about me styles */
+/* ABOUT ME styles */
 
 .aboutme {
     background-color: black;
@@ -102,21 +102,7 @@ header nav ul li a {
 
 
 
-/* "my work" styles */
-
-/* .mywork-div {
-    font-size: 30px;
-    font-weight: normal;
-    color: silver;
-    text-align: right;
-    justify-content: flex-end;
-    align-items: center;
-    flex: 0 0 15%;
-    padding: right;
-    margin-left: 10px;
-    margin-left: 10px;
-    height: 500px;
-} */
+/* MY WORK styles */
 
 .mywork-div h2 {
     font-size: 40px;
@@ -189,6 +175,56 @@ header nav ul li a {
     line-height: 1.5;
     align-items: center;
 }
+
+
+/* CONTACT styles */
+
+.getintouch {
+    padding-bottom: 35px;;
+}
+
+.getintouch h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: rgb(148, 245, 239);
+    border-right: rgb(148, 245, 239) solid 5px;
+    text-align: right;
+    align-items: center;
+    flex: 0 0 15%;
+    padding-right: 10px;
+    margin-left: 5x;
+    width: 10%;
+}
+
+.getintouch nav {
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 0 0 75%;
+    justify-content: space-around;
+    margin-right: 50px;
+    align-self:center;
+}
+
+.getintouch nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.getintouch nav ul li a {
+    margin: 10px 10px;
+    color: rgb(148, 245, 239);
+    text-decoration: none;
+    padding: 2px 10px;
+    flex: 0 0 25%
+}
+
+.getintouch ul li a:hover {
+    background-color: rgb(148, 245, 239);
+    color: black;
+}
+
 
 
 
