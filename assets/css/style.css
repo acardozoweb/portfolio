@@ -48,7 +48,7 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: normal;
     font-size: 20px;
-    color: rgb(148, 245, 239);
+    color: silver;
     border-bottom: rgb(148, 245, 239) solid 1px;
     padding-bottom: 5px;
   }
@@ -182,13 +182,17 @@ header nav ul li a:hover {
 
 .img-text {
     background-color: black;
-    color:rgb(148, 245, 239);
+    color: rgb(148, 245, 239);
     height: 50px;
     width: max-content;
     padding: 3px;
     margin-bottom: 20px;
     line-height: 1.5;
     align-items: center;
+}
+
+.img-text p {
+    color: silver;
 }
 
 
@@ -229,7 +233,7 @@ header nav ul li a:hover {
 
 .getintouch nav ul li a {
     margin: 10px 10px;
-    color: rgb(148, 245, 239);
+    color: silver;
     text-decoration: none;
     border-bottom: rgb(148, 245, 239) 1px solid;
     padding: 2px 10px;
