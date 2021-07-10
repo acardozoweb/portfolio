@@ -36,6 +36,10 @@ header nav {
     margin: 7px 0;
 }
 
+header nav ul {
+    flex-direction: column;
+}
+
 header nav ul li {
     display: inline;
 }
@@ -66,6 +70,7 @@ header nav ul li a:hover {
     align-items: center;
     background-image: url("https://images.unsplash.com/photo-1518563259479-d003c05a6507?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
     background-position: center;
+    background-size: cover;
 }
 
 .hero img {
@@ -280,6 +285,10 @@ header nav ul li a:hover {
 
 @media screen and (max-width: 768px) {
 
+    .hero img {
+        height: 300px;
+    }
+
     .aboutme h2 {
         border-right: none;
         border-bottom: 5px solid rgb(148, 245, 239);
@@ -312,4 +321,20 @@ header nav ul li a:hover {
         margin-left: 50px;
         margin-top: 20px;
     }
+}
+
+@media screen and (max-width: 816px) {
+
+    header nav ul li a {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    header h1 {
+        flex: 100%;
+    }
+
 }
