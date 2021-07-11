@@ -143,7 +143,7 @@ header nav ul li a:hover {
 }
 
 .primary-img {
-    background-image: url(../images/what2watch-img.png);
+    background-image: url(../images/What2WatchScreenshot.png);
     background-size: cover;
     flex: 5 0 100%;
     border: 3px solid black;
@@ -172,7 +172,11 @@ header nav ul li a:hover {
     background-image: url(../images/scheduler-img.png);
 }
 
-.fourth-work-img, .fifth-work-img {
+.fourth-work-img {
+    background-image: url(../images/PwGeneratorScreenshot.png);
+}
+
+.fifth-work-img {
     background-image: url(../images/Placeholder.png);
 }
 
@@ -286,6 +290,13 @@ header nav ul li a:hover {
     }
 }
 
+@media screen and (max-width: 816px) {
+
+    header nav ul li a {
+        float: none;
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 768px) {
 
@@ -313,7 +324,7 @@ header nav ul li a:hover {
 
     .mywork-div h2 {
         border-right: none;
-        text-align: center;
+        align-items: center;
         margin-left: 50px;
         margin-top: 20px;
         border-bottom: rgb(148, 245, 239) 5px solid;
@@ -324,14 +335,6 @@ header nav ul li a:hover {
         align-items: stretch;
         margin-left: 50px;
         margin-top: 20px;
-    }
-}
-
-@media screen and (max-width: 816px) {
-
-    header nav ul li a {
-        float: none;
-        width: 100%;
     }
 }
 
