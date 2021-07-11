@@ -6,12 +6,15 @@
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
 }
+
+
+/* HEADER styles */
 
 header {
     padding: 20px 35px;
     background-color: black;
-    
 }
 
 header h1 {
@@ -33,23 +36,309 @@ header nav {
     margin: 7px 0;
 }
 
+header nav ul {
+    flex-direction: column;
+}
+
 header nav ul li {
     display: inline;
 }
 
 header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-    color: rgb(148, 245, 239);
+    padding: 10px 15px;
+    font-weight: normal;
+    font-size: 20px;
+    color: silver;
+    border-bottom: rgb(148, 245, 239) solid 1px;
+    padding-bottom: 5px;
   }
 
-footer {
-    width: 100%;
-    padding: 40px 50px;
+header nav ul li a:hover {
+      background-color: rgb(148, 245, 239);
+      color: black;
+      border-radius: 10%;
+  }
+
+
+/* HERO styles */
+
+.hero {
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1518563259479-d003c05a6507?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
+    background-position: center;
+    background-size: cover;
 }
 
-footer h2 {
-    display: inline;
+.hero img {
+    border-radius: 25%;
+    height: 375px;
+    padding-left: 30px;
+}
+
+.hero h2 {
+    float: right;
+    padding: 0 5px;
+    color: rgb(148, 245, 239);
+    font-weight: normal;
+    font-size: 22px;
+    background-color: black;
+}
+
+
+/* ABOUT ME styles */
+
+.aboutme {
+    background-color: black;
+}
+
+.aboutme h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: rgb(148, 245, 239);
+    border-right: rgb(148, 245, 239) solid 5px;
+    text-align: right;
+    align-items: center;
+    flex: 0 0 15%;
+    padding-right: 10px;
+    margin-left: 5x;
+    width: 10%;
+}
+
+.aboutme p {
+    color: silver;
+    font-size: 20px;
+    flex: 0 0 75%;
+    margin-right: 50px;
+}
+
+
+
+/* MY WORK styles */
+
+.mywork-div h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: rgb(148, 245, 239);
+    border-right: rgb(148, 245, 239) solid 5px;
+    text-align: right;
+    align-items: center;
+    flex: 0 0 15%;
+    padding-right: 10px;
+    margin-left: 5x;
+    width: 10%;
+    height: 800px;
+}
+
+.work-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 0 0 75%;
+    margin-right: 50px;
+    align-content: space-between ;
+}
+
+.primary-img {
+    background-image: url(../images/what2watch-img.png);
+    background-size: cover;
+    flex: 5 0 100%;
+    border: 3px solid black;
+    display: flex;
+    height: 400px;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.secondary-img {
+    background-size: cover;
+    display: flex;
+    border: 3px solid black;
+    height: 200px;
+    flex: 0 0 50%;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.second-work-img {
+    background-image: url(../images/weatherdashboard-img.png);
+}
+
+.third-work-img {
+    background-image: url(../images/scheduler-img.png);
+}
+
+.fourth-work-img, .fifth-work-img {
+    background-image: url(../images/Placeholder.png);
+}
+
+.primary-img:hover, .secondary-img:hover {
+    opacity: 0.5;
+}
+
+.img-text {
+    background-color: black;
+    color: rgb(148, 245, 239);
+    height: 50px;
+    width: max-content;
+    padding: 3px;
+    margin-bottom: 20px;
     line-height: 1.5;
+    align-items: center;
+}
+
+.img-text p {
+    color: silver;
+}
+
+
+/* CONTACT styles */
+
+.getintouch {
+    padding-bottom: 35px;;
+}
+
+.getintouch h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: rgb(148, 245, 239);
+    border-right: rgb(148, 245, 239) solid 5px;
+    text-align: right;
+    align-items: center;
+    flex: 0 0 15%;
+    padding-right: 10px;
+    margin-left: 5x;
+    width: 10%;
+}
+
+.getintouch nav {
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 0 0 75%;
+    justify-content: space-around;
+    margin-right: 50px;
+    align-self:center;
+}
+
+.getintouch nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.getintouch nav ul li a {
+    margin: 10px 10px;
+    color: silver;
+    text-decoration: none;
+    border-bottom: rgb(148, 245, 239) 1px solid;
+    padding: 2px 10px;
+    padding-bottom: 5px;
+    flex: 0 0 25%
+}
+
+.getintouch ul li a:hover {
+    background-color: rgb(148, 245, 239);
+    color: black;
+    border-radius: 10%;;
+}
+
+
+/* flexbox */
+
+.flex-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+    
+    header h1 {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    header nav {
+        flex: 0 0 100%;
+        padding-bottom: 10px;
+    }
+
+    .getintouch h2 {
+        border-right: none;
+        border-bottom: 5px solid rgb(148, 245, 239);
+        flex: 1 100%;
+        text-align: center;
+        margin: 0px 250px
+    }
+
+    .getintouch nav {
+        flex: 1 100%;
+        padding-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .hero img {
+        height: 300px;
+    }
+
+    .aboutme h2 {
+        border-right: none;
+        border-bottom: 5px solid rgb(148, 245, 239);
+        flex: 1 100%;
+        text-align: center;
+        margin: 0px 250px;
+    }
+
+    .aboutme p {
+        flex: 1 100%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .mywork-div {
+        flex-direction: column;
+    }
+
+    .mywork-div h2 {
+        border-right: none;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 20px;
+        border-bottom: rgb(148, 245, 239) 5px solid;
+    }
+
+    .work-img {
+        flex: 1 100%;
+        align-items: stretch;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 816px) {
+
+    header nav ul li a {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    header h1 {
+        flex: 100%;
+    }
+
 }
