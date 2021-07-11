@@ -8,7 +8,6 @@ This repository is for a professional portfolio, which was started as part of a 
 - HTML
 - CSS
 - CSS Media Queries
-- 
 
 # Contributions
 by Anthony Cardozo
