@@ -60,6 +60,7 @@ header nav ul li a:hover {
   }
 
 
+
 /* HERO styles */
 
 .hero {
@@ -74,7 +75,7 @@ header nav ul li a:hover {
 }
 
 .hero img {
-    border-radius: 25%;
+    border-radius: 50%;
     height: 375px;
     padding-left: 30px;
 }
@@ -143,7 +144,7 @@ header nav ul li a:hover {
 }
 
 .primary-img {
-    background-image: url(../images/What2WatchScreenshot.png);
+    background-image: url();
     background-size: cover;
     flex: 5 0 100%;
     border: 3px solid black;
@@ -164,12 +165,16 @@ header nav ul li a:hover {
     text-decoration: none;
 }
 
+.primary-img {
+    background-image: url(../images/unnamed-1.jpg);
+}
+
 .second-work-img {
-    background-image: url(../images/weatherdashboard-img.png);
+    background-image: url(../images/What2WatchScreenshot.png);
 }
 
 .third-work-img {
-    background-image: url(../images/scheduler-img.png);
+    background-image: url(../images/weatherdashboard-img.png);
 }
 
 .fourth-work-img {
